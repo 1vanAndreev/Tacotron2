@@ -269,7 +269,7 @@ show_graphs = True #@param {type:"boolean"}
 max_duration =  20#@param {type:"integer"}
 model.decoder.max_decoder_steps = max_duration * 80
 stop_threshold = 0.5 #@param {type:"number"}
-model.decoder.gate_threshold = stop_threshold;
+model.decoder.gate_threshold = stop_threshold
 superres_strength = 5 #@param {type:"number"}
 
 print(f"Current Config:\npronounciation_dictionary: {pronounciation_dictionary}\nshow_graphs: {show_graphs}\nmax_duration (in seconds): {max_duration}\nstop_threshold: {stop_threshold}\nsuperres_strength: {superres_strength}\n\n")
